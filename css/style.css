@@ -1,0 +1,184 @@
+/* 
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+###Widths
+
+- Mobile: 375px
+- Desktop: 1440px
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+-Spacing system 
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+ */
+
+/*************************/
+/* General */
+/*************************/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 98%);
+}
+
+/*************************/
+/* Reusable */
+/*************************/
+
+.heading-secondary{
+    font-size: 3.2rem;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 1.6rem;
+}
+
+.btn:link,
+.btn:visited{
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 1.6rem;
+    transition: all 0.3s;
+}
+
+/*************************/
+/* Order sumary */
+/*************************/
+
+.order-sumary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    max-width: 144rem;
+    background-image: url("../images/pattern-background-desktop.svg"), linear-gradient(hsl(225, 100%, 94%), hsl(225, 100%, 94%));
+    background-repeat: no-repeat;
+    padding: 8rem 1.8rem;
+    margin: 10rem auto;
+    border-radius: 25px;
+}
+
+.container{
+    width: 45rem;
+    font-size: 1.6rem;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px hsla(223, 47%, 23%, 0.5);
+}
+
+.order-img{
+    width: 100%;
+}
+
+.order-box{
+    padding: 3.2rem 4.8rem;
+    text-align: center;
+}
+
+.order-text{
+    padding: 0 1.2rem;
+    margin-bottom: 2.4rem;
+}
+
+.order-description{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-box{
+    display: flex;
+    gap: 1.8rem;
+
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 2.4rem;
+    margin-bottom: 3.2rem;
+    border-radius: 15px;
+}
+
+.plan-box div{
+    text-align: left;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-box div p:first-child{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.btn--plan:link,
+.btn--plan:visited{
+    margin-left: auto;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    padding: 0;
+    border-radius: 12px;
+}
+
+.btn--plan:hover,
+.btn--plan:active{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.btn--pay:link,
+.btn--pay:visited{
+    color: #fff;
+    background-color: hsl(245, 75%, 52%);
+    margin-bottom: 1.8rem;
+    border-radius: 14px;
+    box-shadow: 0 10px 40px hsla(223, 47%, 23%, 0.5);
+}
+
+.btn--pay:hover,
+.btn--pay:active{
+    background-color: hsl(224, 23%, 55%);
+}
+
+.btn--cancel:link,
+.btn--cancel:visited{
+    color: hsl(228, 45%, 44%);
+}
+
+.btn--cancel:hover,
+.btn--cancel:active{
+    color: hsl(223, 47%, 23%);
+}
+
+/*************************/
+/* Attribution */
+/*************************/
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

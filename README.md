@@ -39,4 +39,4 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Yael1987](https://www.frontendmentor.io/profile/Yael1987)
